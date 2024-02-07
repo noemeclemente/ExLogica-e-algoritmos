@@ -1,2 +1,2 @@
-# ExLogica e algoritmos
+# Exercícios de Lógica e Algoritmos
  

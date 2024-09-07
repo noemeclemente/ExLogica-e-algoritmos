@@ -46,26 +46,40 @@ Os preços são os seguintes:
 
 O usuário pode continuar pedindo mais itens até decidir que não deseja mais nada. No final, o script exibe o total a ser pago.
 
-## Requisitos
+  # Exercício 3 
+  # Calculadora de Custos de Serviços de Impressão e Encadernação
 
-- Python 3.x: O script é compatível com qualquer versão recente do Python 3.
+Este script em Python calcula o custo total para serviços de impressão e encadernação com base nas escolhas do usuário. O usuário pode selecionar o tipo de serviço, o número de páginas e serviços adicionais, e o script calcula o custo total considerando descontos aplicáveis e custos adicionais.
 
-## Como Executar
+## Descrição
 
-1. **Salve o Código em um Arquivo Python**:
-   - Salve o código fornecido em um arquivo, por exemplo, `pedido_sorvetes.py`.
+O script oferece três opções de serviços de impressão e fotocópia, calcula descontos baseados no número de páginas e permite a escolha de serviços adicionais como encadernação. A seguir estão os detalhes dos serviços e custos:
 
-2. **Execute o Script**:
-   - Abra um terminal ou prompt de comando.
-   - Navegue até o diretório onde o arquivo está localizado.
-   - Execute o script com o comando:
-     ```bash
-     python pedido_sorvetes.py
-     ```
+### Tipos de Serviço e Preços
 
-3. **Siga as Instruções**:
-   - Escolha o sabor e o tamanho do sorvete conforme solicitado.
-   - Informe se deseja adicionar mais itens ao pedido.
-   - O total a ser pago será exibido ao final.
+- **Digitalização (DIG)**: R$ 1,10 por página
+- **Impressão Colorida (ICO)**: R$ 1,00 por página
+- **Impressão Preto e Branco (IBO)**: R$ 0,40 por página
+- **Fotocópia (FOT)**: R$ 0,20 por página
+
+### Descontos por Número de Páginas
+
+- Menos de 10 páginas: Sem desconto
+- De 10 a 99 páginas: 10% de desconto
+- De 100 a 999 páginas: 15% de desconto
+- 1000 ou mais páginas: 20% de desconto
+
+### Serviços Adicionais e Custos
+
+- **Encardenação Simples**: R$ 10,00
+- **Encardenação de Capa Dura**: R$ 25,00
+- **Nenhum Adicional**: R$ 0,00
+
+## Funcionalidades
+
+- **Escolha do Serviço**: O usuário seleciona um tipo de serviço e o valor correspondente é definido.
+- **Número de Páginas**: O usuário insere o número de páginas e o desconto aplicável é calculado.
+- **Serviço Adicional**: O usuário escolhe se deseja adicionar um serviço adicional e o custo é adicionado ao total.
+- **Cálculo do Total**: O script calcula o valor total a ser pago, considerando o valor do serviço, o desconto aplicado ao número de páginas e qualquer custo adicional.
 
 

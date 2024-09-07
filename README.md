@@ -82,4 +82,53 @@ O script oferece três opções de serviços de impressão e fotocópia, calcula
 - **Serviço Adicional**: O usuário escolhe se deseja adicionar um serviço adicional e o custo é adicionado ao total.
 - **Cálculo do Total**: O script calcula o valor total a ser pago, considerando o valor do serviço, o desconto aplicado ao número de páginas e qualquer custo adicional.
 
+ # Exercicio 4
+ # Sistema de Gerenciamento de Livros
+
+Este script em Python é um sistema básico para gerenciar um catálogo de livros. O sistema permite cadastrar novos livros, consultar livros por ID ou autor, e remover livros do catálogo.
+
+## Funcionalidades
+
+1. **Cadastrar Livro**: Adiciona um novo livro ao catálogo com um ID único, nome, autor e editora.
+2. **Consultar Livro**:
+   - **Consultar Todos**: Exibe todos os livros cadastrados.
+   - **Consultar por ID**: Exibe detalhes de um livro específico com base no ID.
+   - **Consultar por Autor**: Exibe todos os livros de um autor específico.
+3. **Remover Livro**: Remove um livro do catálogo com base no ID fornecido.
+4. **Encerrar Programa**: Encerra a execução do programa.
+
+## Estrutura do Código
+
+1. **Variáveis Globais**:
+   - `lista_livros`: Lista para armazenar os livros cadastrados.
+   - `id_global`: ID global que é incrementado a cada novo livro cadastrado.
+
+2. **Funções**:
+   - `cadastrar_livro()`: Solicita informações do livro e adiciona à lista de livros.
+   - `consultar_livro()`: Permite a consulta de livros por diferentes critérios.
+   - `remover_livro()`: Remove um livro da lista com base no ID fornecido.
+
+3. **Loop Principal**:
+   - Exibe um menu para o usuário escolher entre cadastrar, consultar, remover livros ou encerrar o programa.
+
+## Como Executar
+
+1. **Salve o Código em um Arquivo Python**:
+   - Salve o código fornecido em um arquivo, por exemplo, `gerenciamento_livros.py`.
+
+2. **Execute o Script**:
+   - Abra um terminal ou prompt de comando.
+   - Navegue até o diretório onde o arquivo está localizado.
+   - Execute o script com o comando:
+     ```bash
+     python gerenciamento_livros.py
+     ```
+
+3. **Use o Menu**:
+   - Escolha uma opção do menu digitando o número correspondente:
+     - **1**: Cadastrar livro
+     - **2**: Consultar livro
+     - **3**: Remover livro
+     - **4**: Encerrar programa
+
 
